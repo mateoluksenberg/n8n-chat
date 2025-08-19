@@ -6,8 +6,8 @@ import { createChat } from '@n8n/chat';
 
 onMounted(() => {
   createChat({
-    webhookUrl: 'https://mateoluksenberg.app.n8n.cloud/webhook/15e4d662-3f98-48d0-9f50-68838769ecac/chat',
-    mode: 'fullscreen',
+    webhookUrl: 'https://mateoluksenberg.app.n8n.cloud/webhook/a3192f1a-ece6-4cb4-a8b5-ab2d2df4517f',
+    mode: 'fullscreen', 
     target: '#n8n-chat',
     showWelcomeScreen: true,
     defaultLanguage: 'es',
@@ -21,7 +21,7 @@ onMounted(() => {
         subtitle: "Asistente Virtual de la Universidad de Belgrano",
         footer: ' ',
         getStarted: '¡¡Empezar!!',
-        inputPlaceholder: 'Escribir..'
+        inputPlaceholder: 'Escribir...'
       }
     }
   });
